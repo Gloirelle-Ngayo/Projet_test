@@ -9,5 +9,5 @@
 </head>
 <body>
 <header>
-    <H1>je suis le titre de niveau 1</H1>
+    <H1>je suis le titre de niveau 1 se trouvant dans le header</H1>
 </header>

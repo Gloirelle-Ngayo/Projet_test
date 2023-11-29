@@ -1,0 +1,39 @@
+body{
+    margin: 0px auto;
+}
+#gloire1{
+    text-align: center;
+    left: -100px;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 340px;
+    padding: 50px;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 4px black;
+    border-radius: 4px; 
+}
+#objet label{
+    position: relative;
+    left: 0px;
+}
+#objet input{
+    position: relative;
+    left: 62px;
+    
+}
+#contenuID{
+    margin-top: 15px;
+    position: relative;
+    left: 12px;
+
+}
+#contenuID label{
+    position: relative;
+    top: -230px;  
+}
+.divbtn{
+        width: 100px;
+        position: relative;
+        left: 388px;
+        bottom: -10px;
+}   

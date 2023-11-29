@@ -8,7 +8,6 @@ class Acceuil extends CI_Controller{
         parent::__construct();
         $this->load->helper('url');
     }
-
    
     public function index(){
     /*  $data['titles'] = "Acceuil";
@@ -31,6 +30,8 @@ class Acceuil extends CI_Controller{
         $this->load->view('welcome_message');
         $this->load->view('template/footer');
     }
+    
+    
 }
 
 ?>

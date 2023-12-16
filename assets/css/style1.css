@@ -8,8 +8,8 @@ body{
     margin-top: 50px;
     margin-left: 340px;
     padding: 50px;
-    background-color: aliceblue;
-    box-shadow: 1px 1px 4px black;
+    background-color: rgb(246, 252, 252);
+    box-shadow: 1px 1px 4px rgb(200, 199, 199);
     border-radius: 4px; 
 }
 #objet label{
@@ -18,8 +18,8 @@ body{
 }
 #objet input{
     position: relative;
-    left: 62px;
-    
+    left: 23px;
+    margin: 10px;
 }
 #contenuID{
     margin-top: 15px;
@@ -37,3 +37,14 @@ body{
         left: 388px;
         bottom: -10px;
 }   
+.alert{
+    width: 50%;
+    position: relative;
+    left: 340px;
+}
+#listUser{
+    margin-top: 20px;
+    width: 25%;
+    position: relative;
+    left: 330px;
+}

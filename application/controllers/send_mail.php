@@ -17,19 +17,20 @@ $mail->SMTPSecure = "ssl";
 
 
 //sender information
-$mail->setFrom();
+$mail->setFrom($affiche1, "Ngayo");
 
 //receiver address and name
-$mail->addAddress = $affiche2;
+$mail->addAddress($affiche2);
 $mail->isHTML(true);
 
 $mail->Subject = $affiche3;
 $mail->Body = $affiche4;
 // Send mail   
-if (!$mail->send()) {
-    echo 'Email not sent an error was encountered: ' . $mail->ErrorInfo;
-} else {
+try {
+    $mail->send();
     echo 'Message has been sent.';
+} catch (Exception $e) {
+    echo 'Email not sent an error was encountered: ' . $e->getMessage();
 }
 
 $mail->smtpClose();

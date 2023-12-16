@@ -8,7 +8,7 @@
        public function get_data(){ //recuperation des donnees dans la BDD
         $query = $this->db->get('mail_users');
         return $query->result_array();
-    
+        
     }
 
     }
